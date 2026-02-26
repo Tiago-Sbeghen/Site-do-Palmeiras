@@ -1,7 +1,7 @@
 body{
     margin: 0;
 
-    background-color: white;
+    background-color: rgb(131, 231, 106);
 }
 
 
@@ -23,17 +23,33 @@ nav{
 
 #noticias{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(12, 112, 12);
+    margin: 50px;
+    border-radius: 20px;
 }
 
 .noticia{
 background-color: rgba(228, 10, 10, 0.795);
 color: black;
-border: 5px solid green;
+border: 5px solid white;
 
 margin: 10px;
 text-align: center;
+border-radius: 40px;
 }
 
 .img_noticia{
     width: 400px;
+    border-radius: 35px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+
+    background-color: rgba(228, 10, 10, 0.795);
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

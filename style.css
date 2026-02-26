@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+
+    background-color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+#icon{
+    width: 65px;
+    height: 65px;
+}
+
+.noticia{
+
+background-color: green;
+color: black;
+border: 5px;
+}
+
+img.noticia{
+
+    width: 400px;
+}

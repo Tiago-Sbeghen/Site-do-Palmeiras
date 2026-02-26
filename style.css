@@ -21,14 +21,19 @@ nav{
     height: 65px;
 }
 
-.noticia{
-
-background-color: green;
-color: black;
-border: 5px;
+#noticias{
+    display: flex;
 }
 
-img.noticia{
+.noticia{
+background-color: rgba(228, 10, 10, 0.795);
+color: black;
+border: 5px solid green;
 
+margin: 10px;
+text-align: center;
+}
+
+.img_noticia{
     width: 400px;
 }

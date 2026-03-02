@@ -50,9 +50,6 @@ border-radius: 40px;
 }
 
 .escalacao {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     background-color: rgb(212, 255, 178);
     padding: 6px;
     margin: 40px;
@@ -60,21 +57,30 @@ border-radius: 40px;
     border: 3px solid darkgreen;
 }
 
-#titulo_escalacao{
-    display: flex;
+.escalacao h2{
     text-align: center;
-    justify-content: space-around;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     color: darkgreen;
+    margin-bottom: 40px;
+}
+
+.jogadores{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .jogador{
+    text-align: center;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 150px;
 }
 
 .jogador img{
-    display: flex;
     width: 100;
     background-color: white;
     border: 2px solid darkgreen;
